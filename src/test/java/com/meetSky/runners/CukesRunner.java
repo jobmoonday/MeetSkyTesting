@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber",
         },
         features = "src/test/resources/features",
-        glue = "src/test/java/com/meetSky/step_definitions",
-        dryRun = false,
-        tags = "",
+        glue = "com/meetSky/step_definitions",
+        dryRun = true,
+        tags = "@wip",
         publish = false
 
 )
